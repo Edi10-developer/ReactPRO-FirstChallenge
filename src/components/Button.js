@@ -1,5 +1,5 @@
 const Button = ({ placeholder, className, handleClick }) => (
-  <button className={className} handleClick={handleClick}>
+  <button className={className} handleclick={handleClick}>
     {placeholder}
   </button>
 );
